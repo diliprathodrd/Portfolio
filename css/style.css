@@ -1,0 +1,205 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #222222;
+  color: #fff;
+  text-align: center;
+}
+.head-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.profile-photo img {
+  width: 300px;
+  border-radius: 50% 50% 48% 52% / 20% 25% 75% 80%;
+
+  box-shadow: 4px 4px 94px 3px rgba(240, 109, 85, 0.75);
+  -webkit-box-shadow: 4px 4px 94px 3px rgba(240, 109, 85, 0.75);
+  -moz-box-shadow: 4px 4px 94px 3px rgba(240, 109, 85, 0.75);
+}
+.profile-image {
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title h1,
+h3 {
+  padding: 0px;
+  margin: 0px;
+}
+.about-description{
+    flex-basis: 50%;
+}
+.about-description p {
+  line-height: 1.6;
+}
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+button {
+  padding: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 120%;
+  background: #f06d55;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  margin-top: 8px;
+}
+.fa-download {
+  padding-left: 10px;
+}
+.fa-download:hover {
+  color: blue;
+}
+.fa-envelope{
+  padding-right: 10px;
+}
+.download-resume{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.internship-section, .project-section, .activities-section,.testimonial-section{
+  display: flex;
+  justify-content: space-around;
+}
+.internship-card{
+  background-color: #E9E9E9;
+  color: black;
+  border-radius: 8px;
+  padding: 10px;
+  flex-basis: 45%;
+  margin-top: 10px;
+}
+.internship-card-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.internship-card-header .icons{
+  color: #f06d55;
+  font-size: 100px;
+}
+.section-heading{
+  text-align: center;
+}
+.project-card{
+  background-color: #f06d55;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  flex-basis: 45%;
+  margin-top: 10px;
+}
+.project-card-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project-card-header .icons{
+  color: white;
+  font-size: 100px;
+}
+.project-card .card-description button {
+  padding: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 120%;
+  background: white;
+  color: black;
+  border-radius: 4px;
+  border: none;
+  margin-top: 8px;
+}
+.fa-arrow-circle-right{
+  margin-left: 15px;
+}
+.wrapper{
+  display: flex;
+  flex-flow: row wrap;
+}
+.activities-card{
+  background-color: #E9E9E9;
+  color: black;
+  border-radius: 8px;
+  padding: 10px;
+  flex-basis: 30%;
+  margin-top: 10px;
+}
+.activities-card-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.activities-card-header .icons{
+  color: #f06d55;
+  font-size: 100px;
+}
+.activities-card .card-description button {
+  padding: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 120%;
+  background: #f06d55;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  margin-top: 8px;
+}
+.testimonial-card{
+  background-color: #f06d55;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  flex-basis: 30%;
+  margin-top: 10px;
+}
+.testimonial-card-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-card-header .icons{
+  color: white;
+  font-size: 100px;
+}
+.contact{
+  text-align: center;
+  font-size: 50px;
+  color: #f06d55;
+}
+.contact a{
+  text-decoration: none;
+  color: #f06d55;
+}
+.download-resume a{
+  text-decoration: none;
+  color: #fff;
+}
